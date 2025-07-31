@@ -1,0 +1,11 @@
+{
+  "name": "hub-empresas",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter hublocal-api dev",
+    "dev:client": "pnpm --filter hublocal-client dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
